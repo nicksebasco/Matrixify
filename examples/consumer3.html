@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Consumer 3</title>
+  <style>
+    body{ margin:0; }
+    .top{
+      top: 30vh;
+      left: 20vw;
+      width: 60vw;
+      height: 20vh;
+      position: absolute;
+      opacity: 0.95;
+      background: white;
+      z-index: 1;
+    }
+    #ha{
+      position: absolute;
+      left: 0;
+      right:0;
+      top: 0;
+      bottom:0;
+      margin: auto;
+      text-shadow: 1px 1px gold;
+      color: darkslategray;
+      text-align: center;
+      font-weight: bold;
+      font-family: monospace;
+      font-size: 60px;
+      opacity: 0.95;
+    }
+    #backgroundCanvas{
+      height: 100vh;
+      padding-bottom: 0;
+      margin-bottom: 0;
+      background: darkslategray;
+    }
+  </style>
+  <script src="matrixify.js"></script>
+</head>
+<body>
+  <div id="backgroundCanvas">
+  </div>
+  <div class="top">
+      <h2 id="ha">Matrixify</h2>
+  </div>
+</body>
+<script>
+  // matrixify(parent,rows,cols,options)
+  matrixify(document.getElementById("backgroundCanvas"),15,15,{symbols:[".",":"],colors:["#76FF03","#F8BBD0"],size:"10px",bg:"-webkit-linear-gradient(top,#212121,darkcyan)"});
+  matrixify(document.getElementsByClassName("top")[0],5,10,{size:"12px",bg:"#212121",colors:["#E3F2FD"]});
+</script>
+</html>
