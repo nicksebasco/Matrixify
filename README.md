@@ -1,5 +1,5 @@
 # Matrixify
-Short and Sweet vanilla javascript library, producing a surprisingly aesthetic effect.
+Short and sweet vanilla javascript library, producing a surprisingly aesthetic effect.
 
 <h5>Download and Usage </h5>
 <p>Download matrixify.js, copy a version to your project directory.  Link to your main html 
@@ -15,7 +15,7 @@ file with a script tag.</p>
   Check out the examples directory to see everything in action!
 </p>
 <p>
-  matrixify takes 4 arguments ( a fifth argument for advanced styling in coming soon. ).
+  matrixify takes 4 arguments ( a fifth argument for advanced styling is coming soon. ).
   <ol>
     <li> <strong>parent</strong> (html element) - the div that you are trying to marixify.  </li>
     <li> <strong>rows</strong> (integer) - Number of rows in your matrix   </li>
