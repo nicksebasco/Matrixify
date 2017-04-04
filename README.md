@@ -21,6 +21,7 @@ file with a script tag.</p>
     <li> <strong>rows</strong> (integer) - Number of rows in your matrix   </li>
     <li> <strong>columns</strong> (integer) - Number of columns in your matrix   </li>
     <li> <strong>options</strong> (object, <i>optional</i>) - customizable attributes of your matrix  </li>
+  </ol>
 <pre>
 var options = {
   bg: (background color for the matrix, any valid html color including all rgba, hex values, and webkit gradients will work ),
@@ -30,6 +31,5 @@ var options = {
   symbols: ( array of symbols that your matrix will use, any keyboard character or combination of keyboard characters is ok ),
 };
 </pre>
-  </ol>
   
 </p>
