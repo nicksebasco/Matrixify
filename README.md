@@ -21,15 +21,15 @@ file with a script tag.</p>
     <li> <strong>rows</strong> (integer) - Number of rows in your matrix   </li>
     <li> <strong>columns</strong> (integer) - Number of columns in your matrix   </li>
     <li> <strong>options</strong> (object, <i>optional</i>) - customizable attributes of your matrix  </li>
-    <pre>
-     var options = {
-       bg: (background color for the matrix, any valid html color including all rgba, hex values, and webkit gradients will work ),
-       family: ( font family ),
-       size: ( font size ),
-       colors: ( an array of colors for the matrix symbols  ),
-       symbols: ( array of symbols that your matrix will use, any keyboard character or combination of keyboard characters is ok ),
-      };
-    </pre>
+<pre>
+var options = {
+  bg: (background color for the matrix, any valid html color including all rgba, hex values, and webkit gradients will work ),
+  family: ( font family ),
+  size: ( font size ),
+  colors: ( an array of colors for the matrix symbols  ),
+  symbols: ( array of symbols that your matrix will use, any keyboard character or combination of keyboard characters is ok ),
+};
+</pre>
   </ol>
   
 </p>
