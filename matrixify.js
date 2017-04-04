@@ -66,11 +66,8 @@ window.matrixify = function(_parent,_rows,_cols,_options,_styleOptions){
       });
       // New row
       if( row[0].y > partition.offYi && symMap.length < partition.m){
-        console.log("adding row! row0y: ",row[0].y,"partition data: ",partition.m,partition.offY);
         buildRow();
         partition.offYi=partition.offY * symMap.length;
-        console.log("sym map length: ",symMap.length);
-        console.log("new offy: ",partition.offYi);
       }
     });
     self.requestAnimationFrame(animate);
@@ -107,7 +104,6 @@ window.matrixify = function(_parent,_rows,_cols,_options,_styleOptions){
     */
     buildRow();
     self.requestAnimationFrame(animate);
-    // console.log(symMap);
   })();
   self.addEventListener("load",resize);
   self.addEventListener("resize",resize);
