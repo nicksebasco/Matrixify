@@ -1,5 +1,9 @@
 # Matrixify
-Javascript library for adding custom matrix animation to any div.
+Short and Sweet vanilla javascript library, producing a surprisingly aesthetic effect.
 
-
-<h4> Short and Sweet vanilla javascript library, with a beautiful effect </h4>
+<h6>Download & Usage <h6>
+Download matrixify.js, copy a version to your project directory.  Link to your main html 
+file with a script tag.
+<code>
+  <script src="matrixify.js"></script>
+</code>
