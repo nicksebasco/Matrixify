@@ -1,4 +1,4 @@
-window.matrixify = function(_parent,_rows,_cols,_options,_styleOPtions){
+window.matrixify = function(_parent,_rows,_cols,_options,_styleOptions){
   /*
   _options: { symbols:[Array of characters], size:font-size, family:font-family, colors:[Array of colors], bg:"background color of canvas"   };
   _styleOptions: ( additional style options to assign to the matrixified canvas, any css rule valid for canvas elements will apply. ) = { attribute1:value1,...,attributen:valuen };
